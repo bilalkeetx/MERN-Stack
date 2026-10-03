@@ -18,7 +18,7 @@ const extractNames = students.map(s => s.name);
 const totalMarks = students.reduce((acc, curr) => acc + curr.marks, 0);
 const avgMarks = totalMarks/students.length;
 //sort
-const sortStudents = students.toSorted((a,b)=> a.marks - b.makrs);
+const sortStudents = students.toSorted((a,b)=> a.marks - b.marks);
 
 //objects & data structures
 const student = {
